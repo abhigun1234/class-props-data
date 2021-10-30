@@ -6,6 +6,10 @@ export default class MyJsx extends Component {
         super(props)
             console.log("props",props)
     }
+    callMe(name,address){
+        console.log("hello",name)
+        console.log("hello",address)
+    }
     render() {
         //jsx
         return (
@@ -13,6 +17,8 @@ export default class MyJsx extends Component {
              {this.props.name}
              <p></p>
              {this.props.address}
+             {/* <button onClick={()=>this.callMe('neha','bhopal')}>clllMe</button> */}
+             {/* <button onClick={this.callMe}></button> */}
             </div>
         )
     }

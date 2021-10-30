@@ -19,7 +19,7 @@ function App() {
 //   <PropsClassDemo myname="raj"></PropsClassDemo>
 //   </div>
   return(<div><MyJsx name="raj" address='rampur'></MyJsx>
-  <MyJsx name="rahul" address='ranchi'></MyJsx>
+  
   </div>)
 }
 
